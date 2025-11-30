@@ -25,7 +25,7 @@ We are happy to talk with you about your needs for MONAI and your ideas for cont
 
 ### Does it belong in PyTorch instead of MONAI?
 
-MONAI is part of [PyTorch Ecosystem](https://pytorch.org/ecosystem/), and mainly based on the PyTorch and Numpy libraries. These libraries implement what we consider to be best practice for general scientific computing and deep learning functionality. MONAI builds on these with a strong focus on medical applications. As such, it is a good idea to consider whether your functionality is medical-application specific or not. General deep learning functionality may be better off in PyTorch; you can find their contribution guidelines [here](https://pytorch.org/docs/stable/community/contribution_guide.html).
+MONAI is part of [PyTorch Ecosystem](https://pytorch.org/ecosystem/), and mainly based on the PyTorch and NumPy libraries. These libraries implement what we consider to be best practice for general scientific computing and deep learning functionality. MONAI builds on these with a strong focus on medical applications. As such, it is a good idea to consider whether your functionality is medical-application specific or not. General deep learning functionality may be better off in PyTorch; you can find their contribution guidelines [here](https://pytorch.org/docs/stable/community/contribution_guide.html).
 
 ## The contribution process
 
@@ -129,7 +129,7 @@ or (for new features that would not break existing functionality):
 ```
 
 It is recommended that the new test `test_[module_name].py` is constructed by using only
-python 3.9+ build-in functions, `torch`, `numpy`, `coverage` (for reporting code coverages) and `parameterized` (for organising test cases) packages.
+python 3.9+ build-in functions, `torch`, `NumPy`, `coverage` (for reporting code coverages) and `parameterized` (for organising test cases) packages.
 If it requires any other external packages, please make sure:
 
 - the packages are listed in [`requirements-dev.txt`](requirements-dev.txt)
@@ -197,7 +197,7 @@ The first line of the comment must be `/black` so that it will be interpreted by
 
 #### Adding new optional dependencies
 
-In addition to the minimal requirements of PyTorch and Numpy, MONAI's core modules are built optionally based on 3rd-party packages.
+In addition to the minimal requirements of PyTorch and NumPy, MONAI's core modules are built optionally based on 3rd-party packages.
 The current set of dependencies is listed in [installing dependencies](https://monai.readthedocs.io/en/stable/installation.html#installing-the-recommended-dependencies).
 
 To allow for flexible integration of MONAI with other systems and environments,
