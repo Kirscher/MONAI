@@ -110,7 +110,7 @@ or, to build with MONAI C++/CUDA extensions:
 BUILD_MONAI=1 pip install git+https://github.com/Project-MONAI/MONAI
 ```
 
-To build the extensions, if the system environment already has a version of Pytorch installed,
+To build the extensions, if the system environment already has a version of PyTorch installed,
 `--no-build-isolation` might be preferred:
 
 ```bash

@@ -129,7 +129,7 @@ or (for new features that would not break existing functionality):
 ```
 
 It is recommended that the new test `test_[module_name].py` is constructed by using only
-python 3.9+ build-in functions, `torch`, `numpy`, `coverage` (for reporting code coverages) and `parameterized` (for organising test cases) packages.
+python 3.9+ build-in functions, `torch`, `NumPy`, `coverage` (for reporting code coverages) and `parameterized` (for organising test cases) packages.
 If it requires any other external packages, please make sure:
 
 - the packages are listed in [`requirements-dev.txt`](requirements-dev.txt)
