@@ -19,13 +19,13 @@
 
 ---
 
-MONAI's core functionality is written in Python 3 (>= 3.9) and only requires [Numpy](https://numpy.org/) and [Pytorch](https://pytorch.org/).
+MONAI's core functionality is written in Python 3 (>= 3.9) and only requires [NumPy](https://numpy.org/) and [PyTorch](https://pytorch.org/).
 
 The package is currently distributed via Github as the primary source code repository,
 and the Python package index (PyPI). The pre-built Docker images are made available on DockerHub.
 
 To install optional features such as handling the NIfTI files using
-[Nibabel](https://nipy.org/nibabel/), or building workflows using [Pytorch
+[Nibabel](https://nipy.org/nibabel/), or building workflows using [PyTorch
 Ignite](https://pytorch.org/ignite/), please follow the instructions:
 
 - [Installing the recommended dependencies](#installing-the-recommended-dependencies)
